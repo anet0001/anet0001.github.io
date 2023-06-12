@@ -1,0 +1,62 @@
+/* start - generic css reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* end - generic css reset */
+
+/* start - asiignment */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+header,
+footer {
+  background-color: #f3f3f3;
+}
+
+.site-title {
+  color: #333;
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px #000;
+}
+
+.my-hobbies {
+  list-style: square;
+}
+
+.my-hobbies li:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #f3f3f3;
+  border: 2px dotted #333;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/*  end - assignment */
