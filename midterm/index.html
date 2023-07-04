@@ -4,7 +4,147 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Midterm | Nonso Anetoh</title>
+    <title>Midterm</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <section class="banner">
+        <h1>The House Cat</h1>
+        <img src="images/house-cat.jpg" alt="The house cat" />
+      </section>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#story">Story</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper">
+        <article id="home" class="clearfix">
+          <header>
+            <h2 class="text-heading">The life of the house cat</h2>
+          </header>
+          <img
+            class="portrait-img"
+            src="images/cat-portrait.jpeg"
+            alt="A portrait of a house cat"
+          />
+          <p>
+            The House Cat, your beloved feline companion, is a creature of
+            grace, charm, and endless curiosity. With their soft fur and
+            captivating eyes, these enchanting creatures have been our domestic
+            companions for centuries. Whether they are curled up on your lap,
+            playfully chasing a toy, or effortlessly leaping from surface to
+            surface, House Cats bring joy and companionship to our lives. Known
+            for their independent yet affectionate nature, House Cats have
+            become an integral part of many households. They are masters of
+            relaxation, finding comfort in sunny spots, cozy blankets, and your
+            warm embrace. Their purrs, like soothing melodies, create a calming
+            ambiance that helps us unwind after a long day. House Cats are also
+            natural hunters, their agile bodies and sharp instincts make them
+            excellent predators of pests such as mice and insects. Beyond their
+            hunting skills, they exhibit intelligence and curiosity that keep
+            them engaged with their surroundings. Interactive toys, scratching
+            posts, and climbing structures provide mental stimulation and
+            physical exercise, ensuring a content and well-rounded companion.
+            One cannot overlook the humorous antics of House Cats. From their
+            playful pounces and acrobatic jumps to their amusing curiosity with
+            everyday objects, they bring laughter and entertainment into our
+            lives. Their mischievous personalities and quirky behaviors make
+            each day with them an adventure.
+          </p>
+        </article>
+
+        <article id="story">
+          <header>
+            <h2 class="text-heading">Facts about house cats</h2>
+          </header>
+
+          <ul>
+            <li>
+              House cats possess a diverse range of vocalizations and body
+              language to communicate with humans and other animals. They use
+              meowing, purring, hissing, growling, and even chirping sounds to
+              express their needs, emotions, and intentions. Additionally, their
+              body postures, tail movements, and ear positions convey various
+              messages, such as playfulness, fear, or aggression.
+            </li>
+            <li>
+              Despite their cute and cuddly appearance, house cats are
+              exceptional hunters with remarkable agility and precision. They
+              possess sharp retractable claws and keen senses that allow them to
+              stalk and catch prey effectively. Even well-fed house cats may
+              display hunting behaviors, such as pouncing on toys or chasing
+              after moving objects, as it's instinctual for them.
+            </li>
+            <li>
+              House cats are known for their love of napping and sleeping. On
+              average, they sleep for about 12 to 16 hours a day, conserving
+              their energy for bursts of activity and hunting. Cats are
+              crepuscular animals, meaning they are most active during twilight
+              hours—dawn and dusk—reflecting their natural hunting instincts.
+            </li>
+          </ul>
+        </article>
+
+        <h2 class="text-heading">Contact us to learn more</h2>
+
+        <form id="contact" action="" class="clearfix">
+          <div class="form-element">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-element">
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-element">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="9"></textarea>
+          </div>
+          <div class="form-group clearfix">
+            <h3 class="text-subheading">
+              Would You Like to Visit The House Cat?
+            </h3>
+            <div class="form-element">
+              <label for="yes">Yes</label>
+              <input type="radio" name="booking-option" id="yes" value="yes" />
+            </div>
+            <div class="form-element">
+              <label for="no">No</label>
+              <input type="radio" name="booking-option" id="no" value="no" />
+            </div>
+            <div class="form-element">
+              <label for="maybe">Maybe</label>
+              <input
+                type="radio"
+                name="booking-option"
+                id="maybe"
+                value="maybe"
+              />
+            </div>
+          </div>
+
+          <br />
+
+          <div class="form-element">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; 2023 The House Cat</small>
+    </footer>
+  </body>
 </html>
